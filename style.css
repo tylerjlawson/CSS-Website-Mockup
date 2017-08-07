@@ -1,0 +1,24 @@
+.Photos {
+  width: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.Photos img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.Photos .Image-Tablet {
+  position: absolute;
+  width: 25%;
+  bottom: 0;
+  left: 0;
+}
+
+.Photos .Image-Mobile {
+  position: absolute;
+  bottom: 0;
+  width: 12%;
+  right: 0;
+}
